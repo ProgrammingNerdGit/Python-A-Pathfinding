@@ -123,10 +123,10 @@ class reverseWorker(searchNode):
 
 if __name__ == "__main__":
     def run():
-        grid = ASGrid(100)
+        grid = ASGrid(10)
         grid.addBlocker((1,0))
         grid.setStart((0,0))
-        grid.setEnd((50,50))
+        grid.setEnd((10,10))
 
         startTime = time.time()
 
